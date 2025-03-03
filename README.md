@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Đăng Ký Kênh Min Gaming";
+shared.LoaderTitle = "Neon Community | The Best";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -19,7 +19,7 @@ shared.LoaderKeyFrames = {
 };
 local v2 = {
     LoaderData = {
-        Name = shared.LoaderTitle or "A Loader",
+        Name = shared.LoaderTitle or "Carregando",
         Colors = shared.LoaderColors or {
             Main = Color3.fromRGB(0, 0, 0),
             Topic = Color3.fromRGB(200, 200, 200),
@@ -93,7 +93,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://13717478897",
+    Image = "rbxassetid://134191848889531",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Min Gaming",
+    Text = "Youtube:Neon Community",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -310,7 +310,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "Min Gaming",
+    Title = "Neon Community",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
@@ -320,49 +320,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Informação"
     }),
     Main = v15:AddTab({
-        Title = "Cày"
+        Title = "Farm"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện"
+        Title = "Eventos"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm"
+        Title = "Itens"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt"
+        Title = "Configurações"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ"
+        Title = "Servidor"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số"
+        Title = "Auto Stats"
     }),
     Player = v15:AddTab({
-        Title = "Người Chơi"
+        Title = "Jogador"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển"
+        Title = "Teleporte"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Visual"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái"
+        Title = "Frutas"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích"
+        Title = "PvP"
     }),
     Race = v15:AddTab({
-        Title = "Tộc"
+        Title = "Raça"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng"
+        Title = "Loja"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Misc"
     })
 };
 local v17 = v14.Options;
